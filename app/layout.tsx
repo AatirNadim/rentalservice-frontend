@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./fonts.css";
 import NextTopLoader from "nextjs-toploader";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,10 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <NextTopLoader showSpinner={false} color="#0056f1" />
-        {children}
+        <Header />
+        <div className="flex flex-col overflow-hidden">
+          <main className="flex-1 overflow-auto">{children}</main>
+        </div>
+        <Footer />
       </body>
     </html>
   );

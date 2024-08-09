@@ -17,6 +17,7 @@ const config: Config = {
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
         tertiary: "var(--color-tertiary)",
+        grayBg: "var(--color-gray)",
       },
     },
   },

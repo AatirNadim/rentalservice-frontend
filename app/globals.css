@@ -9,10 +9,11 @@
   --color-primary: #0056f1;
   --color-secondary: #f5faff;
   --color-tertiary: #061c34;
+  --color-gray: rgba(152, 152, 152, 0.3);
   font-family: Lufga Regular, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -21,16 +22,16 @@
     --color-secondary: #f5faff;
     --color-tertiary: #061c34;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
