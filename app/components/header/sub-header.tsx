@@ -3,8 +3,8 @@ import Links from "./Links";
 
 const SubHeader = () => {
   return (
-    <div className="flex bg-grayBg">
-      <nav className="min-w-full max-w-1920px flex items-center justify-between p-4">
+    <div className="flex items-center justify-center bg-secondary-foreground">
+      <nav className="w-full max-w-[1920px] flex items-center justify-between p-4 h-[56px]">
         <section className="grid items-center grid-cols-3 gap-4">
           <span>India</span>
           <span>English</span>

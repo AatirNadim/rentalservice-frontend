@@ -17,11 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body className="min-h-screen overflow-auto flex flex-col">
         <NextTopLoader showSpinner={false} color="#0056f1" />
         <Header />
-        <div className="flex flex-col overflow-hidden bg-primary">
-          <main className="flex-1 overflow-auto">{children}</main>
+        <div className="flex-1 flex flex-col overflow-visible">
+          <main>{children}</main>
         </div>
         <Footer />
       </body>
