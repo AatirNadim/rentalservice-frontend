@@ -73,12 +73,14 @@ const FormComponent = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-2 md:gap-4 lg:gap-6 p-4 md:p-8 lg:p-12">
+    <div className="flex flex-col justify-center items-center gap-4 md:gap-4 lg:gap-6 p-4 md:p-8 lg:p-12
+      w-full
+    ">
       <h1 className="text-black font-bold text-xl sm:text-3xl xl:text-6xl">
         Rent Quality bikes
         <br /> with <span className="text-primary">Rentnhop</span>
       </h1>
-      <section className="flex gap-0">
+      <section className="flex gap-0 h-[40px]">
         <Button
           className={cn(
             "text-gray-400 border-2 border-gray-400 rounded-lg rounded-tr-none rounded-br-none bg-transparent border-r-0",
@@ -91,7 +93,7 @@ const FormComponent = () => {
           <Moped />
           Bike
         </Button>
-        <div className="w-[2px] h-full bg-primary"></div>
+        <div className="w-[2px] h-full bg-primary" />
         <Button
           className={cn(
             "text-gray-400 border-2 border-gray-400 rounded-lg rounded-tl-none rounded-bl-none bg-transparent border-l-0",
@@ -136,16 +138,12 @@ const FormComponent = () => {
               </FormItem>
             )}
           />
-          <section
-            className="flex justify-between items-center w-full
-              gap-4
-            "
-          >
+          <section className="flex flex-col md:flex-row justify-between items-center w-full gap-4">
             <FormField
               control={form.control}
               name="pickUpDate"
               render={({ field }) => (
-                <FormItem className="grid grid-cols-1 flex-1">
+                <FormItem className="grid grid-cols-1 flex-1 w-full">
                   <FormLabel>Pickup Date</FormLabel>
                   <Popover>
                     <PopoverTrigger asChild>
@@ -186,7 +184,7 @@ const FormComponent = () => {
               control={form.control}
               name="dropOffDate"
               render={({ field }) => (
-                <FormItem className="grid grid-cols-1 flex-1">
+                <FormItem className="grid grid-cols-1 flex-1 w-full">
                   <FormLabel>Return Date</FormLabel>
                   <Popover>
                     <PopoverTrigger asChild>
