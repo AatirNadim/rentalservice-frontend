@@ -4,8 +4,10 @@ import CarSVG from "@/app/components/assets/car";
 import Moped from "@/app/components/assets/moped";
 import { Button } from "@/app/components/ui/button";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { format } from "date-fns";
 import {
   Form,
+  FormControl,
   FormDescription,
   FormField,
   FormItem,
@@ -17,6 +19,22 @@ import { cn } from "@/lib/utils";
 import { z } from "zod";
 import React from "react";
 import { useForm } from "react-hook-form";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/app/components/ui/select";
+import { Toast } from "@/app/components/ui/toast";
+import { toast } from "@/app/components/ui/use-toast";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/app/components/ui/popover";
+import { CalendarIcon, Loader2 } from "lucide-react";
+import { Calendar } from "@/app/components/ui/calendar";
 
 enum TabsValue {
   BIKE = "bike",
@@ -24,20 +42,36 @@ enum TabsValue {
 }
 
 const formSchema = z.object({
-  vendorSubTypeIds: z.number().array().nonempty("Please select a service type"),
-  description: z.string().min(1, "Please enter a description"),
-});
-
-type formType = z.infer<typeof formSchema>;
-const form = useForm<formType>({
-  resolver: zodResolver(formSchema),
-  defaultValues: {
-    description: "",
-  },
+  location: z.string().min(1, "Location is required"),
+  pickUpDate: z.date(),
+  dropOffDate: z.date(),
 });
 
 const FormComponent = () => {
   const [activeTab, setActiveTab] = React.useState<TabsValue>(TabsValue.BIKE);
+
+  type formType = z.infer<typeof formSchema>;
+  const form = useForm<formType>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      location: "",
+      pickUpDate: new Date(),
+      dropOffDate: new Date(),
+    },
+  });
+
+  const onSubmit = (formData: formType) => {
+    try {
+      console.log("formData: ", formData);
+    } catch (err: any) {
+      console.error(err);
+      toast({
+        variant: "destructive",
+        description: err.error || err.message || "Error submitting data",
+      });
+    }
+  };
+
   return (
     <div className="flex flex-col justify-center items-center gap-2 md:gap-4 lg:gap-6 p-4 md:p-8 lg:p-12">
       <h1 className="text-black font-bold text-xl sm:text-3xl xl:text-6xl">
@@ -74,74 +108,125 @@ const FormComponent = () => {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="w-full space-y-6"
+          className="w-full space-y-6 text-black"
         >
           <FormField
             control={form.control}
-            name="vendorSubTypeIds"
+            name="location"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Service Type</FormLabel>
-                {/* <Select
-                    onValueChange={(value) => {
-                      console.log("onchange: ", value, parseInt(value));
-                      form.setValue("vendorSubTypeId", parseInt(value));
-                    }}
-                  >
-                    <FormControl>
-                      <SelectTrigger>
-                        <SelectValue>
-                          {form.getValues("vendorSubTypeId") === 0
-                            ? "Select a service type"
-                            : arr.find((item) => item.id === form.getValues("vendorSubTypeId"))?.subType}
-                        </SelectValue>
-                      </SelectTrigger>
-                    </FormControl>
-                    <SelectContent
-                      className="flex max-h-60 w-full
-                    flex-col gap-2 overflow-y-auto"
-                    >
-                      {isPending ? (
-                        <ul className="flex flex-col gap-2">
-                          {[1, 2, 3, 4].map((_, idx) => (
-                            <Skeleton key={idx} className="h-6 w-full bg-gray-100" />
-                          ))}
-                        </ul>
-                      ) : isError ? (
-                        <div className="h-12 text-gray-600">Error fetching data</div>
-                      ) : (
-                        arr.map((item) => (
-                          <SelectItem key={item.id} value={`${item.id}`} className="transition hover:bg-gray-100">
-                            {item.subType}
-                          </SelectItem>
-                        ))
-                      )}
-                    </SelectContent>
-                  </Select> */}
-                {/* <MultipleSelectorComp arr={selected} setArr={setSelected} defaultOptions={arr} /> */}
+                <FormLabel>Location</FormLabel>
+                <Select onValueChange={field.onChange}>
+                  <FormControl>
+                    <SelectTrigger>
+                      <SelectValue
+                        placeholder="Choose your location"
+                        className="!text-gray-400"
+                      />
+                    </SelectTrigger>
+                  </FormControl>
+                  <SelectContent>
+                    <SelectItem value="m@example.com">m@example.com</SelectItem>
+                    <SelectItem value="m@google.com">m@google.com</SelectItem>
+                    <SelectItem value="m@support.com">m@support.com</SelectItem>
+                  </SelectContent>
+                </Select>
                 <FormDescription></FormDescription>
                 <FormMessage />
               </FormItem>
             )}
           />
-          <FormField
-            control={form.control}
-            name="description"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Description</FormLabel>
-                <Textarea
-                  {...field}
-                  className="input"
-                  placeholder="Enter description for your selected service type"
-                />
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <Button type="submit" disabled={submitPending}>
-            {submitPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-            Submit
+          <section
+            className="flex justify-between items-center w-full
+              gap-4
+            "
+          >
+            <FormField
+              control={form.control}
+              name="pickUpDate"
+              render={({ field }) => (
+                <FormItem className="grid grid-cols-1 flex-1">
+                  <FormLabel>Pickup Date</FormLabel>
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <FormControl>
+                        <Button
+                          variant={"outline"}
+                          className={cn(
+                            "pl-3 text-left font-normal",
+                            !field.value && "text-muted-foreground"
+                          )}
+                        >
+                          {field.value ? (
+                            format(field.value, "PPP")
+                          ) : (
+                            <span>Pick a date</span>
+                          )}
+                          <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                        </Button>
+                      </FormControl>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-auto p-0" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={field.value}
+                        onSelect={field.onChange}
+                        disabled={(date) =>
+                          date > new Date() || date < new Date("1900-01-01")
+                        }
+                        initialFocus
+                      />
+                    </PopoverContent>
+                  </Popover>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+            <FormField
+              control={form.control}
+              name="dropOffDate"
+              render={({ field }) => (
+                <FormItem className="grid grid-cols-1 flex-1">
+                  <FormLabel>Return Date</FormLabel>
+                  <Popover>
+                    <PopoverTrigger asChild>
+                      <FormControl>
+                        <Button
+                          variant={"outline"}
+                          className={cn(
+                            "pl-3 text-left font-normal",
+                            !field.value && "text-muted-foreground"
+                          )}
+                        >
+                          {field.value ? (
+                            format(field.value, "PPP")
+                          ) : (
+                            <span>Pick a date</span>
+                          )}
+                          <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                        </Button>
+                      </FormControl>
+                    </PopoverTrigger>
+                    <PopoverContent className="w-auto p-0" align="start">
+                      <Calendar
+                        mode="single"
+                        selected={field.value}
+                        onSelect={field.onChange}
+                        disabled={(date) =>
+                          date > new Date() || date < new Date("1900-01-01")
+                        }
+                        initialFocus
+                      />
+                    </PopoverContent>
+                  </Popover>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+          </section>
+          <Button type="submit" className="rounded-full w-full font-bold">
+            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+            Search bikes
           </Button>
         </form>
       </Form>

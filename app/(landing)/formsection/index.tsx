@@ -4,9 +4,10 @@ import Image from "next/image";
 
 const FormSection = () => {
   return (
-    <section className="grid grid-cols-2 bg-white rounded-lg shadow-md">
+    <section className="grid grid-cols-1 md:grid-cols-2 bg-white rounded-lg shadow-md">
       <FormComponent />
       <Image
+        className="hidden md:block"
         src="/assets/landing-img.png"
         alt="Hero Image"
         width={930}
