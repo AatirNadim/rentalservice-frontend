@@ -73,9 +73,11 @@ const FormComponent = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-4 md:gap-4 lg:gap-6 p-4 md:p-8 lg:p-12
+    <div
+      className="flex flex-col justify-center items-center gap-4 md:gap-4 lg:gap-6 p-4 md:p-8 lg:p-12
       w-full
-    ">
+    "
+    >
       <h1 className="text-black font-bold text-xl sm:text-3xl xl:text-6xl">
         Rent Quality bikes
         <br /> with <span className="text-primary">Rentnhop</span>
@@ -222,7 +224,10 @@ const FormComponent = () => {
               )}
             />
           </section>
-          <Button type="submit" className="rounded-full w-full font-bold">
+          <Button
+            type="submit"
+            className="rounded-full w-full font-bold hover:bg-primary-foreground hover:text-secondary"
+          >
             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
             Search bikes
           </Button>

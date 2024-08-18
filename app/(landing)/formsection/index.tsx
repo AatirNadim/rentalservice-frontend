@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const FormSection = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 bg-white rounded-lg shadow-md items-center w-full">
+    <section className="grid grid-cols-1 md:grid-cols-2 bg-white rounded-lg items-center w-full">
       <FormComponent />
       <Image
         className="hidden md:block"

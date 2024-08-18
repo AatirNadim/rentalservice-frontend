@@ -6,7 +6,8 @@ import Moped from "@/app/components/assets/moped";
 
 const StepsWrapper = () => {
   return (
-    <section className="max-w-[90%] w-[1296px] flex flex-col items-center justify-center gap-4 lg:gap-[60px] mt-4 md:mt-8 lg:mt-[50px] xl:mt-[104px]">
+    <section className="max-w-[90%] w-[1296px] flex flex-col items-center justify-center gap-4 lg:gap-[60px] 
+    ">
       <section className="flex flex-col gap-2 items-center ">
         <h1 className="text-sm font-bold">How It Works</h1>
         <h1 className="text-4xl text-black font-bold">Our working steps</h1>
