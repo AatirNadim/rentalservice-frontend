@@ -5,6 +5,7 @@ import AboutUs from "./about-us";
 import { cn } from "@/lib/utils";
 import Fleet from "./fleet";
 import PlacesToVisit from "./places-to-visit";
+import TestimonialWrapper from "./testimonial";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <AboutUs />
       <Fleet />
       <PlacesToVisit />
+      <TestimonialWrapper />
     </div>
   );
 };
