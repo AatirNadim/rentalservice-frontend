@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import Fleet from "./fleet";
 import PlacesToVisit from "./places-to-visit";
 import TestimonialWrapper from "./testimonial";
+import FAQSection from "./faq-section";
 
 const page = () => {
   return (
@@ -21,6 +22,7 @@ const page = () => {
       <Fleet />
       <PlacesToVisit />
       <TestimonialWrapper />
+      <FAQSection />
     </div>
   );
 };
