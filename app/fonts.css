@@ -106,7 +106,7 @@
 @font-face {
   font-family: "Lufga ExtraBold";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   src: local("Lufga ExtraBold"), url("/fonts/ufgaExtraBold.woff") format("woff");
 }
 

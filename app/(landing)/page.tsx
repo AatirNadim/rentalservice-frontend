@@ -3,6 +3,7 @@ import FormSection from "./formsection";
 import StepsWrapper from "./steps";
 import AboutUs from "./about-us";
 import { cn } from "@/lib/utils";
+import Fleet from "./fleet";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
       <FormSection />
       <StepsWrapper />
       <AboutUs />
+      <Fleet />
     </div>
   );
 };
