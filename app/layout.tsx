@@ -20,10 +20,7 @@ export default function RootLayout({
       <body className="min-h-screen overflow-auto flex flex-col">
         <NextTopLoader showSpinner={false} color="#0056f1" />
         <Header />
-        <div className="flex-1 flex flex-col overflow-visible">
-          <main>{children}</main>
-        </div>
-        <Footer />
+        {children}
       </body>
     </html>
   );
