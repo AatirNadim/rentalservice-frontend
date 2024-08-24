@@ -6,8 +6,8 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 
 export const metadata: Metadata = {
-  title: "RentnHop",
-  description: "Bike rental service",
+  title: "RentalService",
+  description: "Transit rental service",
 };
 
 export default function RootLayout({

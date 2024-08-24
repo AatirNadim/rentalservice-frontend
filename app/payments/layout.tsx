@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "RentnHop Payments Page",
-  description: "Bike rental service payments page",
+  title: "RentalService Payments Page",
+  description: "Transit service payments page",
 };
 
 export default function RootLayout({

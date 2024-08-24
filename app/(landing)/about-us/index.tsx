@@ -25,7 +25,7 @@ const AboutUs = () => {
           Feel The Best Experience With <br /> Our Rental Deals
         </h1>
         <p className="text-muted-foreground">
-          RentnHop, headquartered in India, is a leading Motorcycle Rental
+          RentalService, headquartered in India, is a leading Motorcycle Rental
           Platform with a presence in all major cities like Delhi , Mumbai ,
           Leh, Manali , Goa , Chandigarh , Rishikesh , Mussorrie and many more.
           Getting a bike on rent in Delhi offers significant convenience by
@@ -34,7 +34,7 @@ const AboutUs = () => {
           <br />
           Customers can select from an extensive range of motorcycles, from the
           Honda Activa to the Hayabusa, with numerous pickup points conveniently
-          located near key tourist attractions & all hotsports. RentnHop
+          located near key tourist attractions & all hotsports. RentalService
           provides a seamless rental experience with hassle-free reservations,
           24/7 assistance, mechanic support, complimentary accessories,
           cloakroom services, and delivery and pickup options.
