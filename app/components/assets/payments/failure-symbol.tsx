@@ -22,7 +22,7 @@ const FailureSymbol = (props: Props) => {
           y2="184.336"
           stroke="url(#paint0_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="185.302"
@@ -31,7 +31,7 @@ const FailureSymbol = (props: Props) => {
           y2="338.305"
           stroke="url(#paint1_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="103.395"
@@ -40,7 +40,7 @@ const FailureSymbol = (props: Props) => {
           y2="163.821"
           stroke="url(#paint2_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="164.727"
@@ -49,7 +49,7 @@ const FailureSymbol = (props: Props) => {
           y2="330.746"
           stroke="url(#paint3_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="114.251"
@@ -58,7 +58,7 @@ const FailureSymbol = (props: Props) => {
           y2="144.93"
           stroke="url(#paint4_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="145.75"
@@ -67,7 +67,7 @@ const FailureSymbol = (props: Props) => {
           y2="319.738"
           stroke="url(#paint5_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="128.237"
@@ -76,7 +76,7 @@ const FailureSymbol = (props: Props) => {
           y2="128.238"
           stroke="url(#paint6_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="128.945"
@@ -85,7 +85,7 @@ const FailureSymbol = (props: Props) => {
           y2="305.619"
           stroke="url(#paint7_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="144.931"
@@ -94,7 +94,7 @@ const FailureSymbol = (props: Props) => {
           y2="114.252"
           stroke="url(#paint8_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="114.824"
@@ -103,7 +103,7 @@ const FailureSymbol = (props: Props) => {
           y2="288.814"
           stroke="url(#paint9_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="163.821"
@@ -112,7 +112,7 @@ const FailureSymbol = (props: Props) => {
           y2="103.396"
           stroke="url(#paint10_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="103.818"
@@ -121,7 +121,7 @@ const FailureSymbol = (props: Props) => {
           y2="269.836"
           stroke="url(#paint11_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="184.336"
@@ -130,7 +130,7 @@ const FailureSymbol = (props: Props) => {
           y2="95.9994"
           stroke="url(#paint12_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="96.2579"
@@ -139,7 +139,7 @@ const FailureSymbol = (props: Props) => {
           y2="249.262"
           stroke="url(#paint13_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="205.852"
@@ -148,7 +148,7 @@ const FailureSymbol = (props: Props) => {
           y2="92.289"
           stroke="url(#paint14_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="92.3759"
@@ -157,7 +157,7 @@ const FailureSymbol = (props: Props) => {
           y2="227.716"
           stroke="url(#paint15_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="227.715"
@@ -166,7 +166,7 @@ const FailureSymbol = (props: Props) => {
           y2="92.3764"
           stroke="url(#paint16_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="92.2889"
@@ -175,7 +175,7 @@ const FailureSymbol = (props: Props) => {
           y2="205.852"
           stroke="url(#paint17_linear_316_1525)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
       </g>
       <g filter="url(#filter1_d_316_1525)">
@@ -194,7 +194,7 @@ const FailureSymbol = (props: Props) => {
           height="195.32"
           rx="97.6599"
           stroke="url(#paint18_linear_316_1525)"
-          stroke-opacity="0.46"
+          strokeOpacity="0.46"
           stroke-width="3.35938"
         />
       </g>
@@ -214,7 +214,7 @@ const FailureSymbol = (props: Props) => {
           height="116.076"
           rx="58.0381"
           stroke="url(#paint20_linear_316_1525)"
-          stroke-opacity="0.46"
+          strokeOpacity="0.46"
           stroke-width="2.09961"
         />
         <rect
@@ -263,7 +263,7 @@ const FailureSymbol = (props: Props) => {
           width="418.955"
           height="418.955"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -331,7 +331,7 @@ const FailureSymbol = (props: Props) => {
           width="333.054"
           height="333.054"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -365,7 +365,7 @@ const FailureSymbol = (props: Props) => {
           width="223.156"
           height="223.156"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix

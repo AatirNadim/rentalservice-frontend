@@ -22,7 +22,7 @@ const SuccessSymbol = (props: Props) => {
           y2="185.054"
           stroke="url(#paint0_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="186.021"
@@ -31,7 +31,7 @@ const SuccessSymbol = (props: Props) => {
           y2="339.024"
           stroke="url(#paint1_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="104.114"
@@ -40,7 +40,7 @@ const SuccessSymbol = (props: Props) => {
           y2="164.54"
           stroke="url(#paint2_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="165.446"
@@ -49,7 +49,7 @@ const SuccessSymbol = (props: Props) => {
           y2="331.464"
           stroke="url(#paint3_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="114.969"
@@ -58,7 +58,7 @@ const SuccessSymbol = (props: Props) => {
           y2="145.649"
           stroke="url(#paint4_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="146.468"
@@ -67,7 +67,7 @@ const SuccessSymbol = (props: Props) => {
           y2="320.457"
           stroke="url(#paint5_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="128.955"
@@ -76,7 +76,7 @@ const SuccessSymbol = (props: Props) => {
           y2="128.957"
           stroke="url(#paint6_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="129.663"
@@ -85,7 +85,7 @@ const SuccessSymbol = (props: Props) => {
           y2="306.337"
           stroke="url(#paint7_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="145.649"
@@ -94,7 +94,7 @@ const SuccessSymbol = (props: Props) => {
           y2="114.97"
           stroke="url(#paint8_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="115.543"
@@ -103,7 +103,7 @@ const SuccessSymbol = (props: Props) => {
           y2="289.532"
           stroke="url(#paint9_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="164.54"
@@ -112,7 +112,7 @@ const SuccessSymbol = (props: Props) => {
           y2="104.114"
           stroke="url(#paint10_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="104.537"
@@ -121,7 +121,7 @@ const SuccessSymbol = (props: Props) => {
           y2="270.555"
           stroke="url(#paint11_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="185.054"
@@ -130,7 +130,7 @@ const SuccessSymbol = (props: Props) => {
           y2="96.7177"
           stroke="url(#paint12_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="96.9765"
@@ -139,7 +139,7 @@ const SuccessSymbol = (props: Props) => {
           y2="249.98"
           stroke="url(#paint13_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="206.574"
@@ -148,7 +148,7 @@ const SuccessSymbol = (props: Props) => {
           y2="93.0074"
           stroke="url(#paint14_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="93.0983"
@@ -157,7 +157,7 @@ const SuccessSymbol = (props: Props) => {
           y2="228.434"
           stroke="url(#paint15_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="228.434"
@@ -166,7 +166,7 @@ const SuccessSymbol = (props: Props) => {
           y2="93.0946"
           stroke="url(#paint16_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
         <line
           x1="93.0073"
@@ -175,7 +175,7 @@ const SuccessSymbol = (props: Props) => {
           y2="206.571"
           stroke="url(#paint17_linear_316_1362)"
           stroke-linecap="round"
-          stroke-dasharray="4 6"
+          strokeDasharray="4 6"
         />
       </g>
       <g filter="url(#filter1_d_316_1362)">
@@ -194,7 +194,7 @@ const SuccessSymbol = (props: Props) => {
           height="195.32"
           rx="97.6599"
           stroke="url(#paint18_linear_316_1362)"
-          stroke-opacity="0.46"
+          strokeOpacity="0.46"
           stroke-width="3.35938"
         />
       </g>
@@ -214,7 +214,7 @@ const SuccessSymbol = (props: Props) => {
           height="116.076"
           rx="58.0381"
           stroke="url(#paint20_linear_316_1362)"
-          stroke-opacity="0.46"
+          strokeOpacity="0.46"
           stroke-width="2.09961"
         />
         <rect
@@ -236,7 +236,7 @@ const SuccessSymbol = (props: Props) => {
       <path
         d="M191.358 216.072C190.531 216.898 190.531 218.238 191.358 219.065L212.499 240.206C213.326 241.033 214.666 241.033 215.492 240.206L248.348 207.351C249.174 206.524 249.174 205.185 248.348 204.358L240.919 196.93C240.093 196.104 238.753 196.104 237.927 196.93L214.785 220.072C214.349 220.508 213.642 220.508 213.207 220.072L201.779 208.644C200.952 207.817 199.612 207.817 198.786 208.644L191.358 216.072Z"
         stroke="black"
-        stroke-opacity="0.1"
+        strokeOpacity="0.1"
       />
       <defs>
         <filter
@@ -246,7 +246,7 @@ const SuccessSymbol = (props: Props) => {
           width="418.959"
           height="418.955"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -314,7 +314,7 @@ const SuccessSymbol = (props: Props) => {
           width="333.054"
           height="333.054"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
@@ -348,7 +348,7 @@ const SuccessSymbol = (props: Props) => {
           width="223.156"
           height="223.156"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
