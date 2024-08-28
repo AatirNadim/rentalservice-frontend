@@ -24,7 +24,7 @@ const Logo = ({ size, className }: LogoProps) => {
           rx="28.1094"
           stroke="url(#paint0_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.21875"
+          strokeWidth="0.21875"
         />
       </g>
       <g filter="url(#filter1_ddd_317_4261)">
@@ -35,7 +35,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="25.2296"
           stroke="url(#paint1_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -45,7 +45,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="56.3864"
           stroke="url(#paint2_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -55,7 +55,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="21.0943"
           stroke="url(#paint3_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -65,7 +65,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="54.8568"
           stroke="url(#paint4_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -75,7 +75,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="17.2747"
           stroke="url(#paint5_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -85,7 +85,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="52.6152"
           stroke="url(#paint6_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -95,7 +95,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="13.9112"
           stroke="url(#paint7_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -105,7 +105,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="49.7553"
           stroke="url(#paint8_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -115,7 +115,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="11.0931"
           stroke="url(#paint9_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -125,7 +125,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="46.353"
           stroke="url(#paint10_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -135,7 +135,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="8.90503"
           stroke="url(#paint11_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -145,7 +145,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="42.5088"
           stroke="url(#paint12_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -155,7 +155,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="7.43115"
           stroke="url(#paint13_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -165,7 +165,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="38.3559"
           stroke="url(#paint14_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -175,7 +175,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="6.68472"
           stroke="url(#paint15_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -185,7 +185,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="33.9929"
           stroke="url(#paint16_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -195,7 +195,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="6.71332"
           stroke="url(#paint17_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
         <line
@@ -205,7 +205,7 @@ const Logo = ({ size, className }: LogoProps) => {
           y2="29.5767"
           stroke="url(#paint18_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.328125"
+          strokeWidth="0.328125"
           strokeDasharray="0.66 0.66"
         />
       </g>
@@ -226,7 +226,7 @@ const Logo = ({ size, className }: LogoProps) => {
           rx="16.6934"
           stroke="url(#paint20_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.136719"
+          strokeWidth="0.136719"
         />
         <rect
           x="15.3066"
@@ -235,7 +235,7 @@ const Logo = ({ size, className }: LogoProps) => {
           height="33.3867"
           rx="16.6934"
           stroke="url(#paint21_linear_317_4261)"
-          stroke-width="0.136719"
+          strokeWidth="0.136719"
         />
       </g>
       <g filter="url(#filter3_d_317_4261)">
@@ -247,7 +247,7 @@ const Logo = ({ size, className }: LogoProps) => {
           d="M31.1014 25.4282L25.5621 37.8102C25.1727 38.6806 26.1245 39.5408 26.9512 39.0656L31.6185 36.383C31.8547 36.2472 32.1453 36.2472 32.3815 36.383L37.0488 39.0656C37.8755 39.5408 38.8273 38.6806 38.4379 37.8102L32.8986 25.4282C32.5512 24.6517 31.4488 24.6517 31.1014 25.4282Z"
           stroke="url(#paint22_linear_317_4261)"
           strokeOpacity="0.46"
-          stroke-width="0.21875"
+          strokeWidth="0.21875"
         />
       </g>
       <defs>

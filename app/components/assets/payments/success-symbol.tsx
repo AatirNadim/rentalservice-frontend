@@ -195,7 +195,7 @@ const SuccessSymbol = (props: Props) => {
           rx="97.6599"
           stroke="url(#paint18_linear_316_1362)"
           strokeOpacity="0.46"
-          stroke-width="3.35938"
+          strokeWidth="3.35938"
         />
       </g>
       <g filter="url(#filter2_dd_316_1362)">
@@ -215,7 +215,7 @@ const SuccessSymbol = (props: Props) => {
           rx="58.0381"
           stroke="url(#paint20_linear_316_1362)"
           strokeOpacity="0.46"
-          stroke-width="2.09961"
+          strokeWidth="2.09961"
         />
         <rect
           x="160.139"
@@ -224,7 +224,7 @@ const SuccessSymbol = (props: Props) => {
           height="116.076"
           rx="58.0381"
           stroke="url(#paint21_linear_316_1362)"
-          stroke-width="2.09961"
+          strokeWidth="2.09961"
         />
       </g>
       <path

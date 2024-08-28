@@ -36,6 +36,7 @@
     --primary-foreground: 210, 100%, 98%;
     --secondary: 211, 79%, 11%;
     --secondary-foreground: 0, 0%, 60%, 0.3;
+    --ring: var(--primary);
     font-family: Lufga Regular, sans-serif;
   }
 

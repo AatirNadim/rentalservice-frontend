@@ -20,7 +20,7 @@ const OTPBg = (props: Props) => {
           cy="876.5"
           r="621.147"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="241.354"
@@ -28,7 +28,7 @@ const OTPBg = (props: Props) => {
           x2="1485.65"
           y2="875.5"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="864.5"
@@ -36,7 +36,7 @@ const OTPBg = (props: Props) => {
           x2="864.5"
           y2="1498.65"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="250.632"
@@ -44,7 +44,7 @@ const OTPBg = (props: Props) => {
           x2="1476.02"
           y2="767.482"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="756.45"
@@ -52,7 +52,7 @@ const OTPBg = (props: Props) => {
           x2="972.519"
           y2="1489.02"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="278.532"
@@ -60,7 +60,7 @@ const OTPBg = (props: Props) => {
           x2="1447.78"
           y2="662.775"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="651.653"
@@ -68,7 +68,7 @@ const OTPBg = (props: Props) => {
           x2="1077.23"
           y2="1460.78"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="324.205"
@@ -76,7 +76,7 @@ const OTPBg = (props: Props) => {
           x2="1401.79"
           y2="564.561"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="553.293"
@@ -84,7 +84,7 @@ const OTPBg = (props: Props) => {
           x2="1175.44"
           y2="1414.8"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="386.265"
@@ -92,7 +92,7 @@ const OTPBg = (props: Props) => {
           x2="1339.45"
           y2="475.826"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="464.358"
@@ -100,7 +100,7 @@ const OTPBg = (props: Props) => {
           x2="1264.17"
           y2="1352.45"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="462.826"
@@ -108,7 +108,7 @@ const OTPBg = (props: Props) => {
           x2="1262.64"
           y2="399.266"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="387.551"
@@ -116,7 +116,7 @@ const OTPBg = (props: Props) => {
           x2="1340.73"
           y2="1275.64"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="551.561"
@@ -124,7 +124,7 @@ const OTPBg = (props: Props) => {
           x2="1173.71"
           y2="337.206"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="325.206"
@@ -132,7 +132,7 @@ const OTPBg = (props: Props) => {
           x2="1402.8"
           y2="1186.71"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="649.774"
@@ -140,7 +140,7 @@ const OTPBg = (props: Props) => {
           x2="1075.35"
           y2="291.533"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="279.216"
@@ -148,7 +148,7 @@ const OTPBg = (props: Props) => {
           x2="1448.47"
           y2="1088.35"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="754.481"
@@ -156,7 +156,7 @@ const OTPBg = (props: Props) => {
           x2="970.55"
           y2="263.633"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="250.979"
@@ -164,7 +164,7 @@ const OTPBg = (props: Props) => {
           x2="1476.37"
           y2="983.55"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <circle
           cx="863.5"
@@ -172,14 +172,14 @@ const OTPBg = (props: Props) => {
           r="403.395"
           fill="#E1EFFF"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <path
           d="M665.018 1053.94L857.128 631.293C859.615 625.821 867.386 625.821 869.873 631.293L1061.98 1053.94C1064.79 1060.11 1058.06 1066.26 1052.16 1062.92L866.947 958.145C864.809 956.935 862.192 956.935 860.054 958.145L674.837 1062.92C668.938 1066.26 662.213 1060.11 665.018 1053.94Z"
           fill="#0F53CB"
           fill-opacity="0.4"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
       </g>
     </svg>

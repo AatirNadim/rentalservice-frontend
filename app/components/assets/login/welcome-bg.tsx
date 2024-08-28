@@ -21,7 +21,7 @@ const WelcomeBG = (props: Props) => {
           r="621.147"
           transform="rotate(25.1095 1165.61 570.334)"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="602.684"
@@ -29,7 +29,7 @@ const WelcomeBG = (props: Props) => {
           x2="1729.39"
           y2="833.436"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="1430.53"
@@ -37,7 +37,7 @@ const WelcomeBG = (props: Props) => {
           x2="902.51"
           y2="1134.11"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="565.234"
@@ -45,7 +45,7 @@ const WelcomeBG = (props: Props) => {
           x2="1766.51"
           y2="731.541"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="1328.75"
@@ -53,7 +53,7 @@ const WelcomeBG = (props: Props) => {
           x2="1004.41"
           y2="1171.23"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="546.026"
@@ -61,7 +61,7 @@ const WelcomeBG = (props: Props) => {
           x2="1785.38"
           y2="624.746"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="1222.02"
@@ -69,7 +69,7 @@ const WelcomeBG = (props: Props) => {
           x2="1111.2"
           y2="1190.1"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="545.645"
@@ -77,7 +77,7 @@ const WelcomeBG = (props: Props) => {
           x2="1785.41"
           y2="516.299"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="1113.57"
@@ -85,7 +85,7 @@ const WelcomeBG = (props: Props) => {
           x2="1219.65"
           y2="1190.13"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="564.101"
@@ -93,7 +93,7 @@ const WelcomeBG = (props: Props) => {
           x2="1766.61"
           y2="409.493"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="1006.7"
@@ -101,7 +101,7 @@ const WelcomeBG = (props: Props) => {
           x2="1326.45"
           y2="1171.33"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="600.833"
@@ -109,7 +109,7 @@ const WelcomeBG = (props: Props) => {
           x2="1729.55"
           y2="307.575"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="904.666"
@@ -117,7 +117,7 @@ const WelcomeBG = (props: Props) => {
           x2="1428.37"
           y2="1134.27"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="654.726"
@@ -125,7 +125,7 @@ const WelcomeBG = (props: Props) => {
           x2="1675.35"
           y2="213.64"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="810.558"
@@ -133,7 +133,7 @@ const WelcomeBG = (props: Props) => {
           x2="1522.31"
           y2="1080.08"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="724.142"
@@ -141,7 +141,7 @@ const WelcomeBG = (props: Props) => {
           x2="1605.67"
           y2="130.544"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="727.238"
@@ -149,7 +149,7 @@ const WelcomeBG = (props: Props) => {
           x2="1605.4"
           y2="1010.39"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="806.972"
@@ -157,7 +157,7 @@ const WelcomeBG = (props: Props) => {
           x2="1522.61"
           y2="60.8102"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <line
           x1="657.237"
@@ -165,7 +165,7 @@ const WelcomeBG = (props: Props) => {
           x2="1675.14"
           y2="927.338"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <circle
           cx="1165.61"
@@ -174,14 +174,14 @@ const WelcomeBG = (props: Props) => {
           transform="rotate(25.1095 1165.61 570.334)"
           fill="#E1EFFF"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <path
           d="M910.592 646.775L1263.9 345.595C1268.47 341.696 1275.51 344.994 1275.44 351.003L1270.04 815.227C1269.97 822.004 1261.26 824.725 1257.34 819.2L1134.09 645.726C1132.66 643.723 1130.3 642.612 1127.85 642.8L915.669 659.082C908.911 659.6 905.434 651.172 910.592 646.775Z"
           fill="#0F53CB"
           fill-opacity="0.4"
           stroke="#9DBAE8"
-          stroke-width="2"
+          strokeWidth="2"
         />
       </g>
     </svg>
