@@ -11,7 +11,7 @@ const Section2 = () => {
         <div className="flex gap-2 items-center justify-center">
           <Logo size="56px" />
           <section className="flex flex-col items-start justify-center">
-            <span className="font-bold">Rentnhop</span>
+            <span className="font-bold">RentalService</span>
             <span className="font-light text-sm">Easy bike rentals</span>
           </section>
         </div>

@@ -80,7 +80,7 @@ const FormComponent = () => {
     >
       <h1 className="text-black font-bold text-xl sm:text-3xl xl:text-6xl">
         Rent Quality bikes
-        <br /> with <span className="text-primary">Rentnhop</span>
+        <br /> with <span className="text-primary">RentalService</span>
       </h1>
       <section className="flex gap-0 h-[40px]">
         <Button
