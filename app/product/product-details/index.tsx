@@ -7,6 +7,7 @@ import Image from "next/image";
 import SpecDialog from "./spec-dialog";
 import EngineSVG from "@/app/components/assets/product-display/engine";
 import AvailableModal from "./available-modal";
+import RatingBar from "./rating-bar";
 
 const ProductDetails = () => {
   return (
@@ -94,18 +95,18 @@ const ProductDetails = () => {
           <section className="flex items-center justify-between gap-3 flex-col">
             <AvailableModal
               imgUrl="/assets/helmet.png"
-              title="Product Name"
-              description="Product Description"
+              title="Helmet"
+              description="Complimentary"
             />
             <AvailableModal
               imgUrl="/assets/helmet.png"
-              title="Product Name"
-              description="Product Description"
+              title="Pillion Helmet"
+              description="Rs. 1200"
             />
             <AvailableModal
-              imgUrl="/assets/helmet.png"
-              title="Product Name"
-              description="Product Description"
+              imgUrl="/assets/gloves.png"
+              title="Gloves"
+              description="Rs. 250"
             />
           </section>
         </section>
@@ -113,6 +114,102 @@ const ProductDetails = () => {
           <h1 className="text-xl font-bold text-secondary">Special Requests</h1>
           <section className="flex items-center justify-between gap-2 "></section>
         </section>
+      </section>
+      <section className="flex flex-col gap-4 justify-between w-full rounded-lg border-2 border-primary p-4 text-sm bg-white">
+        <h1 className="text-xl font-bold text-secondary">Things to remember</h1>
+
+        <ul className="flex flex-col gap-2 items-start w-full list-disc">
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              The minimum age of renting a Bike is 20 Years.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              Vehicles are provided with Empty Tanks (Enough fuel to reach the
+              nearest Petrol Pump).
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              All Challans issued during the trip are to be paid in full by the
+              customer.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              Negligent, Drunk Driving, Overspeeding (above 80KM/Hr) will
+              attract a fine of Rs. 1000.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              General Servicing (Engine Oil Change, Filter Cleaning, Brake
+              Check) is mandatory after every 1500 KM Trip by the customer.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              This cost must be borne by customer and proper invoice for the
+              servicing is to be furnished on return. Due to non-servicing any
+              issue arising in engine would be paid by customer. Additional fine
+              of Rs. 1000 is applicable in such cases.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              Only the person who has made the reservation is allowed to drive
+              the vehicle. Any discrepancy would attract a penalty of Rs. 2000.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              Accident / Damages to Vehicle must be paid in full at the time of
+              return. In such cases the exact amount would be estimated by the
+              Service Centre /Location Mechanic.
+            </span>
+          </li>
+          <li className="flex items-center gap-2">
+            <span className="text-muted-foreground"></span>
+            <span className="text-muted-foreground">
+              Complete Engine warranty is covered by us. Wear and Tear
+              (Puncture, Tyre, Brakes, Clutch Plate) and Electrical Fault
+              damages will borne by customers.
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section className="flex flex-col gap-4 justify-between w-full rounded-lg border-2 border-primary p-4 text-sm bg-white">
+        <h1 className="text-xl font-bold text-secondary">
+          Documentation and Security Deposit
+        </h1>
+      </section>
+      <section className="flex flex-col gap-4 justify-between w-full rounded-lg border-2 border-primary p-4 text-sm bg-white">
+        <h1 className="text-xl font-bold text-secondary">
+          Cancelling and Rescheduling
+        </h1>
+      </section>
+      <section className="flex flex-col gap-4 justify-between w-full rounded-lg border-2 border-primary p-4 text-sm bg-white">
+        <h1 className="text-xl font-bold text-secondary">Overall Rating</h1>
+        <section className="flex items-center justify-between w-full"></section>
+        <section className="flex flex-col items-center justify-between w-fullflex-col">
+          {/* design progress bars */}
+          <RatingBar rating={5} />
+          <RatingBar rating={5} />
+          <RatingBar rating={5} />
+          <RatingBar rating={5} />
+        </section>
+      </section>
+      <section className="flex flex-col gap-4 justify-between w-full rounded-lg border-2 border-primary p-4 text-sm bg-white">
+        <h1 className="text-xl font-bold text-secondary">Reviews</h1>
       </section>
     </>
   );
